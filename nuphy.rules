@@ -10,19 +10,19 @@
 # type this at the command prompt: sudo cp nuphy.rules /etc/udev/rules.d
 
 
-# Nuphy Air96 v2   -> 3265   
-# Nuphy Air75 v2   -> 3245
-# Nuphy Air60 v2   -> 3255
-# Nuphy Air60 HE   -> fee0
-# NuPhy Gem80      -> 3275
-# NuPhy Halo75     -> 32F5
-# NuPhy Halo96     -> 3302
-# NuPhy Nos75      -> 3235
-# NuPhy Kick75     -> 1026
-# NuPhy Kick75 Upgrader    -> 0720
-# NuPhy Dongle     -> 2620
-# Nuphy Halo65 HE  -> 6112
-# NuPhy Air75 v3   -> 1028
+# Nuphy Air96 v2            -> 3265   
+# Nuphy Air75 v2            -> 3245
+# Nuphy Air60 v2            -> 3255
+# Nuphy Air60 HE            -> fee0
+# NuPhy Gem80               -> 3275
+# NuPhy Halo75              -> 32F5
+# NuPhy Halo96              -> 3302
+# NuPhy Nos75               -> 3235
+# NuPhy Kick75              -> 1026
+# NuPhy Kick75 Upgrader     -> 0720
+# NuPhy Dongle              -> 2620
+# Nuphy Halo65 HE           -> 6112
+# NuPhy Air75 v3            -> 1028
 # NuPhy Air75 v3 Upgrader   -> 0722
 # Nuphy Air75 HE            -> 6120
 # NuPhy Field75 HE          -> fe70
