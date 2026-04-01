@@ -35,6 +35,7 @@ Tested/Added by contributors:
 - NuPhy Air75 v3 (jwa464)
 - NuPhy Field75 (gtrias)
 - NuPhy Air75 HE (venomyt3)
+- NuPhy Node75 LP (FazleArefin)
 
 Dongles:
 

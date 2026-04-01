@@ -27,6 +27,8 @@
 # Nuphy Air75 HE            -> 6120
 # NuPhy Field75 HE          -> fe70
 # NuPhyX BH65               -> 6130
+# Nuphy Node75 LP           -> 1030
+# Nuphy Node75 LP Upgrader  -> 0730
 
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="3265", MODE="0666"
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="3245", MODE="0666"
@@ -45,6 +47,8 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idPro
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="6120", MODE="0666"
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="fe70", MODE="0666"
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="6130", MODE="0666"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="1030", MODE="0666"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="19f5", ATTR{idProduct}=="0730", MODE="0666"
 
 KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="3265", MODE="0666"
 KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="3245", MODE="0666"
@@ -63,6 +67,8 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="0722", MODE="0666
 KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="6120", MODE="0666"
 KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="fe70", MODE="0666"
 KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="6130", MODE="0666"
+KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="1030", MODE="0666"
+KERNEL=="hidraw*", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="0730", MODE="0666"
 
 # This file should be installed to /etc/udev/rules.d so that you can access Nuphy Devices with via without being root.
 #
