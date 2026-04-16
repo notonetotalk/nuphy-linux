@@ -36,6 +36,7 @@ Tested/Added by contributors:
 - NuPhy Field75 (gtrias)
 - NuPhy Air75 HE (venomyt3)
 - NuPhy Node75 LP (FazleArefin)
+- NuPhy Air75 v3 ISO (lyynsch)
 
 Dongles:
 
